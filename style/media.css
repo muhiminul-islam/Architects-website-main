@@ -1,0 +1,137 @@
+@media screen and (max-width:576px) {
+    .nav-title{
+        font-size: 10vw;
+        margin-bottom: 25px;
+    }
+
+    .nav{
+        flex-direction: column;
+    }
+    .nav ul{
+        flex-direction: column;
+    }
+    .nav ul li a{     
+    line-height: 35px;
+    }
+    .banner-title{
+    line-height:normal;
+    font-size: 10vw;
+    margin-top: 70px;
+    line-break: anywhere;
+    }
+    .banner-sub-title{
+    font-size: 4vw;
+    line-height: 25px;
+    }
+    .primary-btn{
+        padding: 14px 20px;
+    }
+    /* banner section end  */
+
+    .features-section{
+        flex-direction: column;
+    }
+    .features-image{
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+    }
+    .feature-content{
+        margin-top: 50px;
+    }
+    .features-content .feature-title{
+        margin-top: 30px;
+    }
+    /* feature section end */
+    .enjoy-love{
+        flex-direction: column;
+    }
+    .btn-lg {
+        display: flex;
+        justify-content: center;
+        transform: translate(0,-0);
+        margin-top: 30px;
+    }
+    .large-button{
+        padding: 5px 35px;
+    }
+    /* enjoy love section end  */
+    .some-fact-boxes{
+        flex-direction: column;
+    }
+    .some-fact-content{
+        margin-top: 60px;
+    }
+    .some-fact-boxes{
+        margin-top: 50px;
+        gap: 70px;
+    }
+    /* some fact section end  */
+    .sponsor-image{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    /* sponser section end  */
+    .contact-us{
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+    .contact-us-content{
+        margin-bottom: 50px;
+    }
+    .contact-us-form input, textarea{
+        width: 100%;
+    }
+    .contact-us-content h2{
+        font-size: 35px;
+    }
+    .contact-us-content p{
+        font-size: 14px;
+    }
+    /* contact us section end  */
+    .footer-content p{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+    .nav{
+        flex-direction: column;
+    }
+    .banner-title{
+        font-size: 50px;
+        margin-bottom: 25px;
+        margin-top: 60px;
+    }
+    /* banner section end  */
+    .features-section{
+        flex-direction: column;
+    }
+    .features-image{
+        width: 100%;
+    }
+    /* feature section end  */
+    .enjoy-love{
+        flex-direction: column;
+    }
+    /* enjoy love section end  */
+    .some-fact-boxes{
+        flex-direction: column;
+    }
+    /* some fact section end  */
+    .sponsor-image{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    /* sponser section end  */
+    .contact-us{
+        flex-direction: column;
+        padding: 50px 0;
+    }
+    .contact-us-content p{
+        margin: 20px 0;
+    }
+    /* contact section end  */
+}
